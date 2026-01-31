@@ -4,13 +4,15 @@ site_author: Muse Mok
 
 repo_name: GitHub
 repo_url: https://github.com/musemok/university-guide
-edit_uri: edit/main/docs/ # 让页面显示“编辑”按钮
+edit_uri: edit/main/docs/
 
 theme:
   name: material
   language: zh
   features:
     - navigation.tabs
+    - navigation.sections  # 添加：显示分组
+    - navigation.expand    # 添加：自动展开导航
     - search.suggest
   palette: 
     primary: indigo
@@ -21,6 +23,14 @@ plugins:
 nav:
   - 首页: index.md
   - 北京:
-      - 北京大学: beijing/pku.md
+      - 北京大学:
+          - 学校概况: beijing/pku/pku.md
   - 上海:
-      - 复旦大学: shanghai/fdu.md
+      - 复旦大学:
+          - 学校概况: shanghai/fdu/fdu.md
+  - 广东:
+      - 中山大学:
+          - 学校概况: guangdong/sysu/sysu.md
+  - 山东:
+      - 山东大学:
+          - 学校概况: shandong/sdu/sdu.md

@@ -1,17 +1,140 @@
-# Welcome to MkDocs
+# 欢迎来到东华高中毕业生大学指北 🎓
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 📖 文档作用
 
-## Commands
+这是一个由东华高中毕业生共同维护的**大学信息分享平台**。我们收集整理了各地知名高校的真实就读体验、专业介绍、校园生活、报考建议等内容，旨在为学弟学妹们的升学选择提供第一手参考资料。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+通过这份指南，你可以：
 
-## Project layout
+- **了解真实的大学生活** - 学长学姐的亲身经历和感受
+- **获取专业信息** - 各专业的课程设置、学习难度、就业方向
+- **掌握报考技巧** - 录取分数线、招生政策、志愿填报建议
+- **规划未来发展** - 深造、就业、出国等多元路径参考
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## ⚠️ 免责声明
+
+!!! warning "重要提示"
+    1. **内容仅供参考**：本站所有内容均来自东华高中毕业生的个人经验分享，代表作者个人观点，不代表学校官方立场。
+    2. **信息时效性**：大学政策、专业设置、录取标准等会随时间变化，请以各高校官方网站的最新信息为准。
+    3. **个体差异性**：每个人的体验和感受因个人背景、兴趣、能力而异，请结合自身情况理性参考。
+    4. **非官方平台**：本站为学生自发维护的非盈利性质文档，与各高校无正式关联。
+
+## 👀 阅读者使用方法
+
+### 快速导航
+
+通过顶部导航栏选择你感兴趣的地区，查看对应高校的信息：
+
+- **北京** - 北京大学
+- **上海** - 复旦大学  
+- **广东** - 中山大学
+- **山东** - 山东大学
+
+### 搜索功能
+
+点击页面右上角的 🔍 搜索图标，输入关键词快速查找内容：
+
+- 搜索学校名：如"北京大学"
+- 搜索专业名：如"计算机"
+- 搜索关键词：如"食堂"、"宿舍"
+
+### 阅读建议
+
+1. **对比多所学校** - 不要只看一所大学，建议横向对比
+2. **关注多个维度** - 学术、生活、就业等多方面了解
+3. **保持批判思维** - 理性看待内容，结合自身判断
+4. **查看官方信息** - 重要决策前务必访问学校官网确认
+
+## ✍️ 编辑者使用方法
+
+我们欢迎所有东华高中的学长学姐参与内容贡献！
+
+### 贡献流程
+
+#### 方式一：在线编辑（推荐新手）
+
+1. 点击页面右上角的 **✏️ 编辑图标**
+2. 会自动跳转到 GitHub 编辑页面
+3. 直接修改 Markdown 内容
+4. 填写修改说明，提交 Pull Request
+5. 等待审核合并
+
+#### 方式二：本地开发（推荐熟悉 Git 的同学）
+
+```bash
+# 1. Fork 项目到你的 GitHub 账号
+# 访问：https://github.com/musemok/university-guide
+
+# 2. 克隆到本地
+git clone https://github.com/你的用户名/university-guide.git
+cd university-guide
+
+# 3. 创建虚拟环境并安装依赖
+python -m venv venv
+venv\Scripts\activate  # Windows
+pip install -r requirements.txt
+
+# 4. 本地预览
+mkdocs serve
+# 访问 http://127.0.0.1:8000 预览效果
+
+# 5. 编辑内容
+# 在 docs/ 目录下编辑或新增 Markdown 文件
+
+# 6. 提交更改
+git add .
+git commit -m "添加XX大学XX专业介绍"
+git push origin main
+
+# 7. 在 GitHub 上提交 Pull Request
+```
+
+### 内容规范
+
+- **真实性优先**：分享真实体验，避免夸大或误导
+- **结构化组织**：使用标题、列表等让内容清晰易读
+- **保护隐私**：不要透露个人敏感信息或他人隐私
+- **文明用语**：保持客观理性，避免攻击性言论
+- **Markdown 格式**：使用标准 Markdown 语法编写
+
+### 文档结构
+
+```
+docs/
+├── 省份/
+│   └── 学校简称/
+│       ├── overview.md    # 学校概况
+│       ├── majors.md      # 专业介绍
+│       ├── life.md        # 校园生活
+│       └── career.md      # 就业前景
+```
+
+## 📧 联系方式
+
+### 问题反馈
+
+如果你发现内容错误、有改进建议或想要贡献内容：
+
+- **GitHub Issues**: [提交问题](https://github.com/musemok/university-guide/issues)
+- **Pull Request**: [提交修改](https://github.com/musemok/university-guide/pulls)
+
+### 内容合作
+
+如果你是东华毕业生，想要：
+
+- 添加新的学校信息
+- 分享就读体验
+- 成为项目维护者
+
+欢迎通过以下方式联系我们：
+
+- 📮 在 GitHub Issues 中说明来意
+- 📧 或通过项目仓库中的联系方式与维护者沟通
+
+---
+
+!!! quote "寄语"
+    每一位学长学姐的分享，都是送给学弟学妹最宝贵的礼物。  
+    希望这份指南能帮助你找到心仪的大学，开启精彩的人生新篇章！🚀
+    
+    **—— 东华高中毕业生们**
