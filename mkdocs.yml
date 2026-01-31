@@ -14,8 +14,6 @@ theme:
     - navigation.sections  # 添加：显示分组
     - navigation.expand    # 添加：自动展开导航
     - search.suggest
-    - content.action.edit  # 启用在线编辑按钮
-    - content.action.view  # 启用查看源码按钮
   palette: 
     primary: indigo
 
