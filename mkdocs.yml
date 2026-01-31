@@ -1,0 +1,26 @@
+site_name: XX高中毕业生大学指北
+site_url: https://你的用户名.github.io/university-guide/
+site_author: 你的名字
+
+repo_name: GitHub
+repo_url: https://github.com/你的用户名/university-guide
+edit_uri: edit/main/docs/ # 让页面显示“编辑”按钮
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - search.suggest
+  palette: 
+    primary: indigo
+
+plugins:
+  - search
+
+nav:
+  - 首页: index.md
+  - 华北:
+      - 北京大学: beijing/pku.md
+  - 华东:
+      - 复旦大学: shanghai/fudan.md

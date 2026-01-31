@@ -1,0 +1,20 @@
+name: publish site
+on:
+  push:
+    branches:
+      - main 
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      # 这里不再直接 pip install mkdocs，而是读取你的清单
+      - run: pip install -r requirements.txt 
+      - run: mkdocs gh-deploy --force
