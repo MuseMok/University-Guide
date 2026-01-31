@@ -14,6 +14,8 @@ theme:
     - navigation.sections  # 添加：显示分组
     - navigation.expand    # 添加：自动展开导航
     - search.suggest
+    - content.action.edit  # 启用在线编辑按钮
+    - content.action.view  # 启用查看源码按钮
   palette: 
     primary: indigo
 
@@ -22,15 +24,16 @@ plugins:
 
 nav:
   - 首页: index.md
-  - 北京:
-      - 北京大学:
-          - 学校概况: beijing/pku/pku.md
-  - 上海:
-      - 复旦大学:
-          - 学校概况: shanghai/fdu/fdu.md
-  - 广东:
-      - 中山大学:
-          - 学校概况: guangdong/sysu/sysu.md
   - 山东:
       - 山东大学:
           - 学校概况: shandong/sdu/sdu.md
+  - 广东:
+      - 中山大学:
+          - 学校概况: guangdong/sysu/sysu.md
+  - 湖北:
+      - 武汉大学:
+          - 学校概况: hubei/wuhan/whu.md
+  - 甘肃:
+      - 兰州大学:
+          - 学校概况: gansu/ldu/lzu.md
+  
