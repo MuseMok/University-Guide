@@ -22,20 +22,19 @@ plugins:
 
 nav:
   - 首页: 
-      - 文档说明: index.md
+    - 文档说明: index.md
+    - 更新日志: 
+        - 正式版更新说明: changelog/1.md
   - 山东:
-      - 山东大学:
-          - 学校概况: shandong/sdu/sdu.md
+    - 山东大学:
+        - 23计算机myh分享: shandong/sdu/1.md
   - 广东:
-      - 中山大学:
-          - 学校概况: guangdong/sysu/sysu.md
-          - 23旅游管理csy分享: guangdong/sysu/23-lvyouguanli-csy.md
+    - 中山大学:
+        - 23旅游管理csy分享: guangdong/sysu/1.md
   - 湖北:
-      - 武汉大学:
-          - 学校概况: hubei/whu/whu.md
+    - 武汉大学:
   - 甘肃:
-      - 兰州大学:
-          - 学校概况: gansu/lzu/lzu.md
+    - 兰州大学:
   - 其他: 
-      - 高考考差了怎么办？: others/1.md
+    - 其他文章: others/1.md
   
