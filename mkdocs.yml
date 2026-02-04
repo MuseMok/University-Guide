@@ -31,7 +31,7 @@ plugins:
 
 nav:
   - 首页: 
-      - 文档说明:
+      - 文档说明: 
           - 主页: beginning/index.md
           - 阅读者指南: beginning/reading.md
           - 贡献指南: beginning/writing.md
