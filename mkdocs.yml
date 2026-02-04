@@ -31,7 +31,11 @@ plugins:
 
 nav:
   - 首页: 
-      - 文档说明: index.md
+      - 文档说明:
+          - 主页: beginning/index.md
+          - 阅读者指南: beginning/reading.md
+          - 贡献指南: beginning/writing.md
+          - 联系我们: beginning/contact.md
       - 更新日志: 
           - 正式版更新说明: change/1.md
   - 山东:
