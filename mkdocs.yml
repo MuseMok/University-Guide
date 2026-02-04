@@ -11,8 +11,8 @@ theme:
   language: zh
   features:
     - navigation.tabs
-    - navigation.sections  # 添加：显示分组
-    - navigation.expand    # 添加：自动展开导航
+    - navigation.sections
+    - navigation.expand
     - search.suggest
   palette: 
     primary: indigo
@@ -23,29 +23,31 @@ plugins:
         - en
         - ja
         - zh
-      separator: '[\s\-\.\/]+'
+      separator: '[\s\u200b\-]+'
       prebuild_index: true
+      min_search_length: 2
+      jieba_dict: dict.txt.big
+      jieba_dict_user: user_dict.txt
 
 nav:
   - 首页: 
-    - 文档说明: index.md
-    - 更新日志: 
-      - 正式版更新说明: change/1.md
+      - 文档说明: index.md
+      - 更新日志: 
+          - 正式版更新说明: change/1.md
   - 山东:
-    - 山东大学:
-      - 山大计算机测如评: shandong/sdu/1.md
+      - 山东大学:
+          - 山大计算机测如评: shandong/sdu/1.md
   - 广东:
-    - 中山大学:
-      - 23旅游管理灰太狼大王分享: guangdong/sysu/1.md
-    - 暨南大学:
-      - 乌贼分享: guangdong/jnu/1.md
+      - 中山大学:
+          - 23旅游管理灰太狼大王分享: guangdong/sysu/1.md
+      - 暨南大学:
+          - 乌贼分享: guangdong/jnu/1.md
   - 湖北:
-    - 武汉大学:
-      - 武汉大学饮食大测评: hubei/whu/1.md
-      - 喜欢上热搜的大学……: hubei/whu/2.md
+      - 武汉大学:
+          - 武汉大学饮食大测评: hubei/whu/1.md
+          - 喜欢上热搜的大学……: hubei/whu/2.md
   - 甘肃:
-    - 兰州大学:
-      - 卡萨布兰卡分享: gansu/lzu/1.md
+      - 兰州大学:
+          - 卡萨布兰卡分享: gansu/lzu/1.md
   - 其他: 
-    - 其他文章: others/1.md
-  
+      - 其他文章: others/1.md
