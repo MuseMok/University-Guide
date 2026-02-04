@@ -30,9 +30,9 @@ plugins:
 nav:
   - 首页: index.md
   - 文档说明: 
-      - 阅读者指南: beginning/reading.md
-      - 贡献指南: beginning/writing.md
-      - 联系我们: beginning/contact.md
+      - 阅读者指南: reading.md
+      - 贡献指南: writing.md
+      - 联系我们: contact.md
   - 更新日志: 
       - 正式版更新说明: change/1.md
   - 山东:
