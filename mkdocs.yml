@@ -1,9 +1,9 @@
 site_name: 东华高中毕业生大学指北
-site_url: https://musemok.github.io/university-guide/
+site_url: https://musemok.github.io/University-Guide/
 site_author: Muse Mok
 
 repo_name: GitHub
-repo_url: https://github.com/musemok/university-guide
+repo_url: https://github.com/musemok/University-Guide
 edit_uri: edit/main/docs/
 
 theme:
