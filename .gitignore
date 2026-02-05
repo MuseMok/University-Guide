@@ -208,4 +208,15 @@ __marimo__/
 
 # Draft folder
 draft/
-node_modules
+
+# Node.js
+node_modules/
+
+# Docusaurus
+.docusaurus/
+build/
+.cache-loader/
+
+# IDE
+.vscode/
+.idea/
