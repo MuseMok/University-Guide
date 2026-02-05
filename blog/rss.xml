@@ -10,8 +10,8 @@
         <language>zh-Hans</language>
         <item>
             <title><![CDATA[北京师范大学生存指南]]></title>
-            <link>https://blog.university-guide.top/blog/beijing-bnu-guide</link>
-            <guid>https://blog.university-guide.top/blog/beijing-bnu-guide</guid>
+            <link>https://blog.university-guide.top/blog/beijing-bnu-1</link>
+            <guid>https://blog.university-guide.top/blog/beijing-bnu-1</guid>
             <pubDate>Fri, 06 Feb 2026 00:00:00 GMT</pubDate>
             <description><![CDATA[北京师范大学整体测评]]></description>
             <content:encoded><![CDATA[<p>北京师范大学整体测评</p>
@@ -21,6 +21,42 @@
             <category>北京师范大学</category>
             <category>北京</category>
             <category>师范</category>
+            <category>汉语言文学</category>
+            <category>校园生活</category>
+        </item>
+        <item>
+            <title><![CDATA[暨南大学测试文章]]></title>
+            <link>https://blog.university-guide.top/blog/guangdong-jnu-test</link>
+            <guid>https://blog.university-guide.top/blog/guangdong-jnu-test</guid>
+            <pubDate>Thu, 05 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[这是一篇测试文章，用于验证系统的动态检测功能。]]></description>
+            <content:encoded><![CDATA[<p>这是一篇测试文章，用于验证系统的动态检测功能。</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="测试内容">测试内容<a href="https://blog.university-guide.top/blog/guangdong-jnu-test#%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9" class="hash-link" aria-label="测试内容的直接链接" title="测试内容的直接链接" translate="no">​</a></h2>
+<p>本文用于测试以下功能：</p>
+<ol>
+<li class=""><strong>省份识别</strong>：文章标签中的"广东"应该被正确识别</li>
+<li class=""><strong>学校检测</strong>：文章标签中的"暨南大学"应该被归类到广东省</li>
+<li class=""><strong>动态生成</strong>：无需修改任何配置文件，系统应自动将本文章纳入大学图书馆页面</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="预期结果">预期结果<a href="https://blog.university-guide.top/blog/guangdong-jnu-test#%E9%A2%84%E6%9C%9F%E7%BB%93%E6%9E%9C" class="hash-link" aria-label="预期结果的直接链接" title="预期结果的直接链接" translate="no">​</a></h2>
+<p>访问 <code>/university-library</code> 页面时：</p>
+<ul>
+<li class="">广东省的卡片应该显示</li>
+<li class="">点击广东省后，应该能看到暨南大学</li>
+<li class="">暨南大学下应该包含本测试文章</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="验证步骤">验证步骤<a href="https://blog.university-guide.top/blog/guangdong-jnu-test#%E9%AA%8C%E8%AF%81%E6%AD%A5%E9%AA%A4" class="hash-link" aria-label="验证步骤的直接链接" title="验证步骤的直接链接" translate="no">​</a></h2>
+<ol>
+<li class="">运行 <code>npm run build</code> 检查构建是否成功</li>
+<li class="">运行 <code>npm start</code> 启动开发服务器</li>
+<li class="">访问大学图书馆页面验证显示效果</li>
+<li class="">清除浏览器缓存确保看到最新内容</li>
+</ol>
+<hr>
+<p><strong>测试时间</strong>：2026年2月5日</p>]]></content:encoded>
+            <category>山东</category>
+            <category>济南大学</category>
+            <category>测试</category>
         </item>
         <item>
             <title><![CDATA[卡萨布兰卡分享]]></title>
@@ -39,6 +75,7 @@
             <category>校园生活</category>
             <category>考研</category>
             <category>兰州</category>
+            <category>甘肃</category>
         </item>
         <item>
             <title><![CDATA[乌贼分享]]></title>
@@ -78,6 +115,7 @@
             <category>校园生活</category>
             <category>保研</category>
             <category>广州</category>
+            <category>广东</category>
         </item>
         <item>
             <title><![CDATA[武汉大学饮食大测评]]></title>
@@ -118,6 +156,7 @@
             <category>武汉大学</category>
             <category>校园生活</category>
             <category>武汉</category>
+            <category>湖北</category>
         </item>
         <item>
             <title><![CDATA[喜欢上热搜的大学……]]></title>
@@ -137,6 +176,7 @@
             <category>个人感悟</category>
             <category>法学院</category>
             <category>武汉</category>
+            <category>湖北</category>
         </item>
         <item>
             <title><![CDATA[山大计算机测如评]]></title>
@@ -202,6 +242,7 @@
             <category>校园生活</category>
             <category>保研</category>
             <category>青岛</category>
+            <category>山东</category>
         </item>
         <item>
             <title><![CDATA[23旅游管理灰太狼大王分享]]></title>
@@ -224,7 +265,7 @@
 <p>教学楼:就一栋不用找。通勤建议自己备自行车,本来学校内拥有庞大数量的共享,不知道是被投诉了还是咋的消失了很多(主要是哈罗),办共享单车月卡建议还是早点起来抢车不然会没车用</p>
 <p>体育场:教学楼靠近北门方向有一个体育场,只有标准400跑到和一片小足球场。体育馆里面就一个室内排球场其他的全是羽毛球场。羽毛球场要预约。学校有专门的体育经费的每个月,理论上来说根本花不完,放心使用。</p>
 <p>综测与奖学金:本人稍微懒惰,几乎没搞过这个,但是可以说说大概有啥要求。绩点、志愿时、体育章等有要求,班内担任职务或者学生会职务也有加分,以及一些国家级、省级比赛都可以加分,然后评定奖学金。</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-关于中山大学旅游学院and酒店管理系的一些个人见解">5. 关于中山大学旅游学院and酒店管理系的一些个人见解<a href="https://blog.university-guide.top/blog/guangdong-sysu-1#5-%E5%85%B3%E4%BA%8E%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E6%97%85%E6%B8%B8%E5%AD%A6%E9%99%A2and%E9%85%92%E5%BA%97%E7%AE%A1%E7%90%86%E7%B3%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3" class="hash-link" aria-label="5. 关于中山大学旅游学院and酒店管�理系的一些个人见解的直接链接" title="5. 关于中山大学旅游学院and酒店管理系的一些个人见解的直接链接" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-关于中山大学旅游学院and酒店管理系的一些个人见解">5. 关于中山大学旅游学院and酒店管理系的一些个人见解<a href="https://blog.university-guide.top/blog/guangdong-sysu-1#5-%E5%85%B3%E4%BA%8E%E4%B8%AD%E5%B1%B1%E5%A4%A7%E5%AD%A6%E6%97%85%EF%BF%BD%EF%BF%BD%E6%B8%B8%E5%AD%A6%E9%99%A2and%E9%85%92%E5%BA%97%E7%AE%A1%E7%90%86%E7%B3%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3" class="hash-link" aria-label="5. 关于中山大学旅游学院and酒店管理系的一些个人见解的直接链接" title="5. 关于中山大学旅游学院and酒店管理系的一些个人见解的直接链接" translate="no">​</a></h2>
 <p>中山大学旅游学院分为3个系,规划系、会展系、酒店系。在大一下有志愿填写,然后专业分流。分流是会参考绩点排名的。坦率的说绩点排名为规划&gt;会展&gt;酒店。当然是按大一两学期的绩点综合。大一新生现在都在南校先读一年再分流到各个校区。当然分流了之后绩点排名也就只在各自系里面算。</p>
 <p>我只从就读体验来评价的话:</p>
 <p>大二课程还比较多,不同系的同学还是除了一些专业必修课之外,其他的课程是可以互选的。然后要学高等数学(大一),学概率论等,大二下就没有数学学了。推荐高俊、刘易、张骁鸣、罗晓燕、钟淑如和兰俊棒老师的课,个人认为比较有趣有思想,而且作业难度不高。杨云老师的课基本不查考勤。建议可以在大一大二多从事一些有意思的比赛,旅院老师指导比赛还是有一手的,比较专业,哪怕是些完全没涉猎过的领域的比赛也建议尝试。</p>
@@ -237,6 +278,7 @@
             <category>校园生活</category>
             <category>酒店管理</category>
             <category>珠海</category>
+            <category>广东</category>
         </item>
     </channel>
 </rss>
