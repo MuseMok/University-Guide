@@ -6,7 +6,7 @@
   url: 'https://blog.university-guide.top',
   baseUrl: '/',
   
-  organizationName: 'musemok',
+  organizationName: 'MuseMok',
   projectName: 'University-Guide',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
