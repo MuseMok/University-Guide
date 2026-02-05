@@ -1,0 +1,15 @@
+{
+  "id": "index",
+  "title": "欢迎来到东华高中毕业生大学指北",
+  "description": "这是一个由东华高中毕业生共同维护的大学生活指南，帮助学弟学妹们更好地了解各个大学的真实情况。",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/University-Guide/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

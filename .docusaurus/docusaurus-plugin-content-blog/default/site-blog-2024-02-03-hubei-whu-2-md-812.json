@@ -1,0 +1,64 @@
+{
+  "permalink": "/University-Guide/blog/hubei-whu-2",
+  "source": "@site/blog/2024-02-03-hubei-whu-2.md",
+  "title": "喜欢上热搜的大学……",
+  "description": "日本人中的樱花、汉奸大学、性骚扰、支持吸毒…倘若你是whu的学生,那么你在各种武大tag下的短视频、帖子和一切带有评论区的地方都会看到无缘无故的谩骂。其实刷到一些武大风景照的时候下面评论区有一堆汉奸大学也是很无奈又好笑。作为在舆论中心的法学院学生,我想和大家说些我自己的想法。",
+  "date": "2024-02-03T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "武汉大学",
+      "permalink": "/University-Guide/blog/tags/武汉大学"
+    },
+    {
+      "inline": true,
+      "label": "校园生活",
+      "permalink": "/University-Guide/blog/tags/校园生活"
+    },
+    {
+      "inline": true,
+      "label": "个人感悟",
+      "permalink": "/University-Guide/blog/tags/个人感悟"
+    },
+    {
+      "inline": true,
+      "label": "法学院",
+      "permalink": "/University-Guide/blog/tags/法学院"
+    }
+  ],
+  "readingTime": 3.66,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "嘉然世界第一可爱",
+      "title": "武汉大学法学院",
+      "url": "https://github.com/jiarandiyi",
+      "imageURL": "https://github.com/jiarandiyi.png",
+      "key": "jiarandiyi",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "hubei-whu-2",
+    "title": "喜欢上热搜的大学……",
+    "authors": [
+      "jiarandiyi"
+    ],
+    "tags": [
+      "武汉大学",
+      "校园生活",
+      "个人感悟",
+      "法学院"
+    ],
+    "date": "2024-02-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "武汉大学饮食大测评",
+    "permalink": "/University-Guide/blog/hubei-whu-1"
+  },
+  "nextItem": {
+    "title": "山大计算机测如评",
+    "permalink": "/University-Guide/blog/shandong-sdu-1"
+  }
+}

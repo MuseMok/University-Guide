@@ -1,0 +1,15 @@
+{
+  "id": "universities/Shandong University/1",
+  "title": "山大计算机测如评",
+  "description": "本人是2023年参加的高考，最后进入山东大学计算机科学与技术专业学习。这里从我本人的经历讲起，分享一下我们学校的情况。",
+  "source": "@site/docs/universities/Shandong University/1.md",
+  "sourceDirName": "universities/Shandong University",
+  "slug": "/universities/Shandong University/1",
+  "permalink": "/University-Guide/docs/universities/Shandong University/1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/universities/Shandong University/1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,72 @@
+{
+  "permalink": "/University-Guide/blog/gansu-lzu-1",
+  "source": "@site/blog/2024-02-04-gansu-lzu-1.md",
+  "title": "卡萨布兰卡分享",
+  "description": "关于兰州大学,首先它有两个校区,老校区在城关区(市中心),新校区在榆中县夏官营镇,距离老校区40公里,通勤方式只有校车与的士,值得注意的是本科生都会在榆中校区,医学生除外。",
+  "date": "2024-02-04T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "兰州大学",
+      "permalink": "/University-Guide/blog/tags/兰州大学"
+    },
+    {
+      "inline": true,
+      "label": "榆中校区",
+      "permalink": "/University-Guide/blog/tags/榆中校区"
+    },
+    {
+      "inline": true,
+      "label": "饮食",
+      "permalink": "/University-Guide/blog/tags/饮食"
+    },
+    {
+      "inline": true,
+      "label": "住宿",
+      "permalink": "/University-Guide/blog/tags/住宿"
+    },
+    {
+      "inline": true,
+      "label": "保研",
+      "permalink": "/University-Guide/blog/tags/保研"
+    },
+    {
+      "inline": true,
+      "label": "校园生活",
+      "permalink": "/University-Guide/blog/tags/校园生活"
+    }
+  ],
+  "readingTime": 2.07,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "卡萨布兰卡",
+      "title": "兰州大学",
+      "url": "https://github.com/kasabulanka",
+      "imageURL": "https://github.com/kasabulanka.png",
+      "key": "kasabulanka",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "gansu-lzu-1",
+    "title": "卡萨布兰卡分享",
+    "authors": [
+      "kasabulanka"
+    ],
+    "tags": [
+      "兰州大学",
+      "榆中校区",
+      "饮食",
+      "住宿",
+      "保研",
+      "校园生活"
+    ],
+    "date": "2024-02-04T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "乌贼分享",
+    "permalink": "/University-Guide/blog/guangdong-jnu-1"
+  }
+}

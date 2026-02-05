@@ -1,0 +1,61 @@
+{
+  "id": "article/guangdong-sysu-1",
+  "title": "23旅游管理灰太狼大王分享",
+  "description": "关于2023级本科生在中山大学那些事",
+  "source": "@site/docs/article/guangdong-sysu-1.md",
+  "sourceDirName": "article",
+  "slug": "/article/guangdong-sysu-1",
+  "permalink": "/University-Guide/docs/article/guangdong-sysu-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/article/guangdong-sysu-1.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "中山大学",
+      "permalink": "/University-Guide/docs/tags/中山大学"
+    },
+    {
+      "inline": true,
+      "label": "旅游管理",
+      "permalink": "/University-Guide/docs/tags/旅游管理"
+    },
+    {
+      "inline": true,
+      "label": "南校园",
+      "permalink": "/University-Guide/docs/tags/南校园"
+    },
+    {
+      "inline": true,
+      "label": "珠海校区",
+      "permalink": "/University-Guide/docs/tags/珠海校区"
+    },
+    {
+      "inline": true,
+      "label": "饮食",
+      "permalink": "/University-Guide/docs/tags/饮食"
+    },
+    {
+      "inline": true,
+      "label": "住宿",
+      "permalink": "/University-Guide/docs/tags/住宿"
+    },
+    {
+      "inline": true,
+      "label": "转专业",
+      "permalink": "/University-Guide/docs/tags/转专业"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "tags": [
+      "中山大学",
+      "旅游管理",
+      "南校园",
+      "珠海校区",
+      "饮食",
+      "住宿",
+      "转专业"
+    ]
+  }
+}

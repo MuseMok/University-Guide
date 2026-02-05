@@ -1,0 +1,61 @@
+{
+  "id": "article/shandong-sdu-1",
+  "title": "山大计算机测如评",
+  "description": "本人是2023年参加的高考，最后进入山东大学计算机科学与技术专业学习。这里从我本人的经历讲起，分享一下我们学校的情况。",
+  "source": "@site/docs/article/shandong-sdu-1.md",
+  "sourceDirName": "article",
+  "slug": "/article/shandong-sdu-1",
+  "permalink": "/University-Guide/docs/article/shandong-sdu-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/article/shandong-sdu-1.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "山东大学",
+      "permalink": "/University-Guide/docs/tags/山东大学"
+    },
+    {
+      "inline": true,
+      "label": "计算机",
+      "permalink": "/University-Guide/docs/tags/计算机"
+    },
+    {
+      "inline": true,
+      "label": "青岛校区",
+      "permalink": "/University-Guide/docs/tags/青岛校区"
+    },
+    {
+      "inline": true,
+      "label": "学习生活",
+      "permalink": "/University-Guide/docs/tags/学习生活"
+    },
+    {
+      "inline": true,
+      "label": "饮食",
+      "permalink": "/University-Guide/docs/tags/饮食"
+    },
+    {
+      "inline": true,
+      "label": "住宿",
+      "permalink": "/University-Guide/docs/tags/住宿"
+    },
+    {
+      "inline": true,
+      "label": "保研",
+      "permalink": "/University-Guide/docs/tags/保研"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "tags": [
+      "山东大学",
+      "计算机",
+      "青岛校区",
+      "学习生活",
+      "饮食",
+      "住宿",
+      "保研"
+    ]
+  }
+}

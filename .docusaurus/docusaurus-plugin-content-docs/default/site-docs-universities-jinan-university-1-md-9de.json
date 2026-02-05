@@ -1,0 +1,15 @@
+{
+  "id": "universities/Jinan University/1",
+  "title": "乌贼分享",
+  "description": "学校概述（石牌校区）",
+  "source": "@site/docs/universities/Jinan University/1.md",
+  "sourceDirName": "universities/Jinan University",
+  "slug": "/universities/Jinan University/1",
+  "permalink": "/University-Guide/docs/universities/Jinan University/1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/universities/Jinan University/1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

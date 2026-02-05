@@ -1,0 +1,70 @@
+{
+  "permalink": "/blog/guangdong-sysu-1",
+  "source": "@site/blog/2026-02-01-guangdong-sysu-1.md",
+  "title": "23旅游管理灰太狼大王分享",
+  "description": "关于2023级本科生在中山大学那些事",
+  "date": "2026-02-01T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "中山大学",
+      "permalink": "/blog/tags/中山大学"
+    },
+    {
+      "inline": true,
+      "label": "旅游管理",
+      "permalink": "/blog/tags/旅游管理"
+    },
+    {
+      "inline": true,
+      "label": "转专业",
+      "permalink": "/blog/tags/转专业"
+    },
+    {
+      "inline": true,
+      "label": "校园生活",
+      "permalink": "/blog/tags/校园生活"
+    },
+    {
+      "inline": true,
+      "label": "酒店管理",
+      "permalink": "/blog/tags/酒店管理"
+    },
+    {
+      "inline": true,
+      "label": "珠海",
+      "permalink": "/blog/tags/珠海"
+    }
+  ],
+  "readingTime": 5.15,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "灰太狼大王",
+      "title": "中山大学旅游管理",
+      "key": "huitalang",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "guangdong-sysu-1",
+    "title": "23旅游管理灰太狼大王分享",
+    "authors": [
+      "huitalang"
+    ],
+    "tags": [
+      "中山大学",
+      "旅游管理",
+      "转专业",
+      "校园生活",
+      "酒店管理",
+      "珠海"
+    ],
+    "date": "2026-02-01T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "山大计算机测如评",
+    "permalink": "/blog/shandong-sdu-1"
+  }
+}

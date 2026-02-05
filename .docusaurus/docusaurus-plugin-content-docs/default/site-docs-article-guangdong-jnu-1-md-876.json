@@ -1,0 +1,43 @@
+{
+  "id": "article/guangdong-jnu-1",
+  "title": "乌贼分享",
+  "description": "学校概述（石牌校区）",
+  "source": "@site/docs/article/guangdong-jnu-1.md",
+  "sourceDirName": "article",
+  "slug": "/article/guangdong-jnu-1",
+  "permalink": "/University-Guide/docs/article/guangdong-jnu-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/article/guangdong-jnu-1.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "暨南大学",
+      "permalink": "/University-Guide/docs/tags/暨南大学"
+    },
+    {
+      "inline": true,
+      "label": "临床医学",
+      "permalink": "/University-Guide/docs/tags/临床医学"
+    },
+    {
+      "inline": true,
+      "label": "保研",
+      "permalink": "/University-Guide/docs/tags/保研"
+    },
+    {
+      "inline": true,
+      "label": "校园生活",
+      "permalink": "/University-Guide/docs/tags/校园生活"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "tags": [
+      "暨南大学",
+      "临床医学",
+      "保研",
+      "校园生活"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "permalink": "/University-Guide/blog/guangdong-jnu-1",
+  "source": "@site/blog/2024-02-04-guangdong-jnu-1.md",
+  "title": "乌贼分享",
+  "description": "本人就读于石牌校区的临床医学专业,所以对学校的概述可能主要以本专业的情况视角出发,其他专业应该大差不差,具体以学校官网公告为主。",
+  "date": "2024-02-04T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "暨南大学",
+      "permalink": "/University-Guide/blog/tags/暨南大学"
+    },
+    {
+      "inline": true,
+      "label": "临床医学",
+      "permalink": "/University-Guide/blog/tags/临床医学"
+    },
+    {
+      "inline": true,
+      "label": "石牌校区",
+      "permalink": "/University-Guide/blog/tags/石牌校区"
+    },
+    {
+      "inline": true,
+      "label": "饮食",
+      "permalink": "/University-Guide/blog/tags/饮食"
+    },
+    {
+      "inline": true,
+      "label": "住宿",
+      "permalink": "/University-Guide/blog/tags/住宿"
+    },
+    {
+      "inline": true,
+      "label": "保研",
+      "permalink": "/University-Guide/blog/tags/保研"
+    },
+    {
+      "inline": true,
+      "label": "学习生活",
+      "permalink": "/University-Guide/blog/tags/学习生活"
+    }
+  ],
+  "readingTime": 7.66,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "乌贼",
+      "title": "暨南大学临床医学",
+      "url": "https://github.com/wuzei",
+      "imageURL": "https://github.com/wuzei.png",
+      "key": "wuzei",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "guangdong-jnu-1",
+    "title": "乌贼分享",
+    "authors": [
+      "wuzei"
+    ],
+    "tags": [
+      "暨南大学",
+      "临床医学",
+      "石牌校区",
+      "饮食",
+      "住宿",
+      "保研",
+      "学习生活"
+    ],
+    "date": "2024-02-04T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "卡萨布兰卡分享",
+    "permalink": "/University-Guide/blog/gansu-lzu-1"
+  },
+  "nextItem": {
+    "title": "武汉大学饮食大测评",
+    "permalink": "/University-Guide/blog/hubei-whu-1"
+  }
+}

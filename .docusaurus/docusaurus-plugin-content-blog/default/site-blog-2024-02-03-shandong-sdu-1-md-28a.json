@@ -1,0 +1,83 @@
+{
+  "permalink": "/University-Guide/blog/shandong-sdu-1",
+  "source": "@site/blog/2024-02-03-shandong-sdu-1.md",
+  "title": "山大计算机测如评",
+  "description": "本人是2023年参加的高考,最后进入山东大学计算机科学与技术专业学习。这里从我本人的经历讲起,分享一下我们学校的情况。",
+  "date": "2024-02-03T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "山东大学",
+      "permalink": "/University-Guide/blog/tags/山东大学"
+    },
+    {
+      "inline": true,
+      "label": "计算机",
+      "permalink": "/University-Guide/blog/tags/计算机"
+    },
+    {
+      "inline": true,
+      "label": "青岛校区",
+      "permalink": "/University-Guide/blog/tags/青岛校区"
+    },
+    {
+      "inline": true,
+      "label": "学习生活",
+      "permalink": "/University-Guide/blog/tags/学习生活"
+    },
+    {
+      "inline": true,
+      "label": "饮食",
+      "permalink": "/University-Guide/blog/tags/饮食"
+    },
+    {
+      "inline": true,
+      "label": "住宿",
+      "permalink": "/University-Guide/blog/tags/住宿"
+    },
+    {
+      "inline": true,
+      "label": "保研",
+      "permalink": "/University-Guide/blog/tags/保研"
+    }
+  ],
+  "readingTime": 8.54,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "一等好柴梅琳娜",
+      "title": "山东大学计算机科学与技术",
+      "url": "https://github.com/meilinamok",
+      "email": "meilinamok@example.com",
+      "imageURL": "https://github.com/meilinamok.png",
+      "key": "meilinamok",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "shandong-sdu-1",
+    "title": "山大计算机测如评",
+    "authors": [
+      "meilinamok"
+    ],
+    "tags": [
+      "山东大学",
+      "计算机",
+      "青岛校区",
+      "学习生活",
+      "饮食",
+      "住宿",
+      "保研"
+    ],
+    "date": "2024-02-03T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "喜欢上热搜的大学……",
+    "permalink": "/University-Guide/blog/hubei-whu-2"
+  },
+  "nextItem": {
+    "title": "23旅游管理灰太狼大王分享",
+    "permalink": "/University-Guide/blog/guangdong-sysu-1"
+  }
+}

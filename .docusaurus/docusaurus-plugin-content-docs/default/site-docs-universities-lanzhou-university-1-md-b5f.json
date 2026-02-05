@@ -1,0 +1,15 @@
+{
+  "id": "universities/Lanzhou University/1",
+  "title": "卡萨布兰卡分享",
+  "description": "关于兰州大学，首先它有两个校区，老校区在城关区（市中心），新校区在榆中县夏官营镇，距离老校区40公里，通勤方式只有校车与的士，值得注意的是本科生都会在榆中校区，医学生除外。",
+  "source": "@site/docs/universities/Lanzhou University/1.md",
+  "sourceDirName": "universities/Lanzhou University",
+  "slug": "/universities/Lanzhou University/1",
+  "permalink": "/University-Guide/docs/universities/Lanzhou University/1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/universities/Lanzhou University/1.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,43 @@
+{
+  "id": "article/hubei-whu-1",
+  "title": "武汉大学饮食大测评",
+  "description": "01",
+  "source": "@site/docs/article/hubei-whu-1.md",
+  "sourceDirName": "article",
+  "slug": "/article/hubei-whu-1",
+  "permalink": "/University-Guide/docs/article/hubei-whu-1",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/musemok/University-Guide/edit/main/docs/article/hubei-whu-1.md",
+  "tags": [
+    {
+      "inline": true,
+      "label": "武汉大学",
+      "permalink": "/University-Guide/docs/tags/武汉大学"
+    },
+    {
+      "inline": true,
+      "label": "饮食",
+      "permalink": "/University-Guide/docs/tags/饮食"
+    },
+    {
+      "inline": true,
+      "label": "食堂测评",
+      "permalink": "/University-Guide/docs/tags/食堂测评"
+    },
+    {
+      "inline": true,
+      "label": "校园生活",
+      "permalink": "/University-Guide/docs/tags/校园生活"
+    }
+  ],
+  "version": "current",
+  "frontMatter": {
+    "tags": [
+      "武汉大学",
+      "饮食",
+      "食堂测评",
+      "校园生活"
+    ]
+  }
+}
