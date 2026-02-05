@@ -1,8 +1,8 @@
 ---
-slug: beijing-bnu-guide
+slug: beijing-bnu-1
 title: 北京师范大学生存指南
 authors: [寒槑居士]
-tags: [北京师范大学, 北京, 师范]
+tags: [北京师范大学, 北京, 师范, 汉语言文学, 校园生活]
 date: 2026-02-06
 ---
 

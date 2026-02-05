@@ -2,7 +2,7 @@
 slug: guangdong-jnu-1
 title: 乌贼分享
 authors: [wuzei]
-tags: [暨南大学, 临床医学, 校园生活, 保研, 广州]
+tags: [暨南大学, 临床医学, 校园生活, 保研, 广州, 广东]
 date: 2026-02-04
 ---
 

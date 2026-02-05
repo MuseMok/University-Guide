@@ -47,6 +47,7 @@
       title: '大学指北',
       items: [
         {to: '/blog', label: '📚 文章列表', position: 'left'},
+        {to: '/university-library', label: '🏛️ 院校索引', position: 'left'},
         {to: '/blog/tags', label: '🏷️ 标签索引', position: 'left'},
         {to: '/tags-filter', label: '🔍 高级筛选', position: 'left'},
         {
@@ -78,6 +79,7 @@
           title: '快速访问',
           items: [
             {label: '文章列表', to: '/blog'},
+            {label: '院校索引', to: '/university-library'},
             {label: '标签索引', to: '/blog/tags'},
             {label: '高级筛选', to: '/tags-filter'},
           ],

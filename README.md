@@ -23,6 +23,7 @@
 ## 👥 维护者
 
 - [@musemok](https://github.com/musemok)
+- [@TaffyNo1cute](https://github.com/TaffyNo1cute)
 
 ## 🌈 致谢
 

@@ -13,17 +13,26 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/university-library">
-            📚 开始阅读文章
-          </Link>
-          <Link
-            className="button button--outline button--lg"
-            to="/tags-filter"
-            style={{marginLeft: '1rem'}}>
-            🔍 高级标签筛选
-          </Link>
+          <div style={{display: 'inline-block'}}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/university-library">
+              📚 开始阅读文章
+            </Link>
+            <div style={{fontSize: '0.85rem', marginTop: '0.5rem', opacity: 0.8, textAlign: 'center'}}>
+              按省份和学校查找文章
+            </div>
+          </div>
+          <div style={{display: 'inline-block', marginLeft: '1rem'}}>
+            <Link
+              className="button button--outline button--lg"
+              to="/tags-filter">
+              🔍 高级标签筛选
+            </Link>
+            <div style={{fontSize: '0.85rem', marginTop: '0.5rem', opacity: 0.8, textAlign: 'center'}}>
+              多标签交集筛选
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -102,6 +111,12 @@ function QuickLinks() {
       description: '查看所有学长学姐的分享',
       link: '/blog',
       emoji: '📚',
+    },
+    {
+      title: '🏛️ 院校索引',
+      description: '按省份和学校查找文章',
+      link: '/university-library',
+      emoji: '🏛️',
     },
     {
       title: '🏷️ 标签索引',

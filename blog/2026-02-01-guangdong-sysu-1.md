@@ -2,7 +2,7 @@
 slug: guangdong-sysu-1
 title: 23旅游管理灰太狼大王分享
 authors: [huitalang]
-tags: [中山大学, 旅游管理, 转专业, 校园生活, 酒店管理, 珠海]
+tags: [中山大学, 旅游管理, 转专业, 校园生活, 酒店管理, 珠海, 广东]
 date: 2026-02-01
 ---
 
