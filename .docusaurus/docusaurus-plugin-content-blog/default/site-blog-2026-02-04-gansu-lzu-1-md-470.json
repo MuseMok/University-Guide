@@ -57,6 +57,10 @@
     "date": "2026-02-04T00:00:00.000Z"
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "北京师范大学生存指南",
+    "permalink": "/blog/beijing-bnu-guide"
+  },
   "nextItem": {
     "title": "乌贼分享",
     "permalink": "/blog/guangdong-jnu-1"

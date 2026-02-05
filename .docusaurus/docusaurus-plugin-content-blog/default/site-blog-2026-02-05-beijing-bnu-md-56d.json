@@ -1,0 +1,52 @@
+{
+  "permalink": "/blog/beijing-bnu-guide",
+  "source": "@site/blog/2026-02-05-beijing-bnu.md",
+  "title": "北京师范大学生存指南",
+  "description": "北京师范大学整体测评",
+  "date": "2026-02-06T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "北京师范大学",
+      "permalink": "/blog/tags/北京师范大学"
+    },
+    {
+      "inline": true,
+      "label": "北京",
+      "permalink": "/blog/tags/北京"
+    },
+    {
+      "inline": true,
+      "label": "师范",
+      "permalink": "/blog/tags/师范"
+    }
+  ],
+  "readingTime": 1.01,
+  "hasTruncateMarker": false,
+  "authors": [
+    {
+      "name": "寒槑居士",
+      "title": "北京师范大学汉语言文学",
+      "key": "寒槑居士",
+      "page": null
+    }
+  ],
+  "frontMatter": {
+    "slug": "beijing-bnu-guide",
+    "title": "北京师范大学生存指南",
+    "authors": [
+      "寒槑居士"
+    ],
+    "tags": [
+      "北京师范大学",
+      "北京",
+      "师范"
+    ],
+    "date": "2026-02-06T00:00:00.000Z"
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "卡萨布兰卡分享",
+    "permalink": "/blog/gansu-lzu-1"
+  }
+}

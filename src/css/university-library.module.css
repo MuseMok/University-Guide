@@ -1,0 +1,237 @@
+/* src/css/university-library.module.css */
+
+/* === 全局容器与背景 === */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  /* 添加一个非常淡的背景纹理或颜色，增加层次感 */
+  background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+  background-size: 20px 20px;
+  min-height: 80vh;
+}
+
+/* 深色模式适配 */
+[data-theme='dark'] .container {
+  background-image: radial-gradient(#374151 1px, transparent 1px);
+}
+
+/* === 头部区域 === */
+.header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  animation: fadeInDown 0.8s ease-out; /* 进场动画 */
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, var(--ifm-color-primary), #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.header p {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 1rem;
+}
+
+/* === 面包屑导航 === */
+.breadcrumbs {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  color: var(--ifm-color-emphasis-700);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.backButton {
+  background: var(--ifm-color-emphasis-200);
+  border: none;
+  color: var(--ifm-color-emphasis-800);
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  display: inline-flex;
+  align-items: center;
+}
+
+.backButton:hover {
+  background: var(--ifm-color-primary);
+  color: white;
+  transform: translateX(-3px);
+}
+
+/* === 网格布局优化 (手机端核心改动) === */
+.grid {
+  display: grid;
+  /* 电脑端保持卡片稍大 */
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+/* === 卡片通用样式 (玻璃拟态 + 动效) === */
+.card {
+  background: var(--ifm-card-background-color);
+  /* 给边框加一点透明度，显得更精致 */
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 16px; /* 圆角加大 */
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left; /* 改为左对齐，阅读更顺畅 */
+  text-decoration: none !important;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+/* 卡片悬停效果 (电脑端) */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+/* 点击时的缩放效果 (更有手感) */
+.card:active {
+  transform: scale(0.98);
+}
+
+/* === 省份卡片样式 === */
+.provinceName {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+  color: var(--ifm-color-emphasis-900);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 给省份加一个小箭头图标 */
+.provinceName::after {
+  content: '→';
+  font-size: 1.2rem;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s;
+  color: var(--ifm-color-primary);
+}
+
+.card:hover .provinceName::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.provinceDesc {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-500);
+}
+
+/* === 大学卡片样式 === */
+.uniName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ifm-color-primary);
+  margin-bottom: 0.25rem;
+}
+
+.uniDesc {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  line-height: 1.4;
+}
+
+/* 提示点击的文字 */
+.actionText {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+/* === 动画定义 === */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === 移动端专属优化 (Mobile First) === */
+@media (max-width: 768px) {
+  .container {
+    padding: 1.5rem 1rem;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  
+  /* 手机端改成两列布局，更紧凑 */
+  .grid {
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 0.75rem; /* 减小间距 */
+  }
+
+  .card {
+    padding: 1rem; /* 减小内边距 */
+    border-radius: 12px;
+    min-height: 100px; /* 保证最小高度 */
+  }
+
+  .provinceName {
+    font-size: 1.1rem; /* 字体稍微调小 */
+  }
+  
+  .provinceName::after {
+    display: none; /* 手机上不要箭头，省空间 */
+  }
+
+  .provinceDesc {
+    font-size: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* 只显示一行描述，超出的省略 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .uniName {
+    font-size: 1rem;
+  }
+  
+  .uniDesc {
+    display: none; /* 手机列表页如果不重要，可以隐藏大学描述，让界面更清爽 */
+  }
+  
+  .actionText {
+    display: none; /* 手机上去掉“点击查看”字样，更像App的列表 */
+  }
+}

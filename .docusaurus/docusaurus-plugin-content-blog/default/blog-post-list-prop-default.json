@@ -2,6 +2,12 @@
   "title": "最近文章",
   "items": [
     {
+      "title": "北京师范大学生存指南",
+      "permalink": "/blog/beijing-bnu-guide",
+      "unlisted": false,
+      "date": "2026-02-06T00:00:00.000Z"
+    },
+    {
       "title": "卡萨布兰卡分享",
       "permalink": "/blog/gansu-lzu-1",
       "unlisted": false,
