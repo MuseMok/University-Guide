@@ -513,6 +513,13 @@
     },
     "config": "config---tags-filter-5-e-9-1a1"
   },
+  "/wuhan-university-7d1": {
+    "__comp": "__comp---site-src-pages-wuhan-university-jsc-2-b-6d5",
+    "__context": {
+      "plugin": "plugin---tags-filtera-74-b6d"
+    },
+    "config": "config---tags-filter-5-e-9-1a1"
+  },
   "/docs-184": {
     "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {

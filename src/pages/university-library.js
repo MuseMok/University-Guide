@@ -57,7 +57,7 @@ export default function UniversityLibrary() {
                   key={idx}
                   // 这里是最关键的一步：构建标签链接
                   // 如果你的标签是中文，Docusaurus 通常会自动处理，直接拼接入 URL
-                  to={`/blog/tags/${uni.tag}`}
+                  to={uni.customLink ? uni.customLink : `/blog/tags/${uni.tag}`}
                   className={styles.card}
                 >
                   <div className={styles.uniName}>{uni.name}</div>

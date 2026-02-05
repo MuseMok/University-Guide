@@ -19,7 +19,8 @@ export const universityData = [
     shortName: '鄂',
     description: '九省通衢，教育重镇',
     universities: [
-      { name: '武汉大学', tag: '武汉大学', desc: '珞珈山人民公园' },
+      // 注意：我在原有对象里加了一个 customLink 属性
+{ name: '武汉大学', tag: '武汉大学', desc: '珞珈山人民公园', customLink: '/wuhan-university' },
       { name: '华中科技大学', tag: '华中科技大学', desc: '关山口职业技术学院' },
     ]
   },

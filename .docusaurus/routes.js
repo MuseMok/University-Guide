@@ -218,6 +218,11 @@ export default [
     exact: true
   },
   {
+    path: '/wuhan-university',
+    component: ComponentCreator('/wuhan-university', '7d1'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '184'),
     routes: [
