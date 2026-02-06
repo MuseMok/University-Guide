@@ -33,12 +33,6 @@ function getBlogPostsWithTags() {
   }
 }
 
-// 判断标签是否是学校名称
-function isUniversityTag(tag) {
-  const universityKeywords = ['大学', '学院', '学校'];
-  return universityKeywords.some(keyword => tag.includes(keyword));
-}
-
 // 从省份全称或简称匹配省份
 function matchProvince(tag) {
   // 直接匹配省份全称
@@ -55,7 +49,7 @@ function matchProvince(tag) {
   return province;
 }
 
-// 动态生成大学数据（根据文章标签中的省份）
+// 动态生成大学数据（根据文章标签，第一个标签必须是学校名）
 function generateDynamicUniversityData(posts) {
   // 创建省份到大学的映射
   const provinceUniversityMap = new Map();
@@ -64,8 +58,9 @@ function generateDynamicUniversityData(posts) {
   posts.forEach(post => {
     const { tags } = post;
     
-    // 找出文章中的学校标签
-    const universities = tags.filter(tag => isUniversityTag(tag));
+    // 第一个标签是学校名
+    if (tags.length === 0) return;
+    const universityName = tags[0];
     
     // 找出文章中的省份标签
     const provinces = tags
@@ -73,14 +68,12 @@ function generateDynamicUniversityData(posts) {
       .filter(p => p !== undefined);
     
     // 将学校和省份关联
-    if (universities.length > 0 && provinces.length > 0) {
+    if (provinces.length > 0) {
       provinces.forEach(province => {
         if (!provinceUniversityMap.has(province.province)) {
           provinceUniversityMap.set(province.province, new Set());
         }
-        universities.forEach(uni => {
-          provinceUniversityMap.get(province.province).add(uni);
-        });
+        provinceUniversityMap.get(province.province).add(universityName);
       });
     }
   });

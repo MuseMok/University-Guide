@@ -2,7 +2,7 @@
 slug: shandong-sdu-1
 title: 山大计算机测如评
 authors: [meilinamok]
-tags: [山东大学, 计算机, 校园生活, 保研, 青岛, 山东]
+tags: [山东大学, 计算机, 校园生活, 保研, 青岛, 山东, 教学]
 date: 2026-02-03
 ---
 

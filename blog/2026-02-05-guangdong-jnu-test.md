@@ -1,9 +1,9 @@
 ---
-slug: guangdong-jnu-test
-title: 暨南大学测试文章
+slug: guangdong-jju-test
+title: 积极大学测试文章
 date: 2026-02-05
 authors: [meilinamok]
-tags: [山东, 济南大学, 测试]
+tags: [积极大学, 广东, 测试]
 ---
 
 # 暨南大学测试文章
@@ -24,7 +24,7 @@ tags: [山东, 济南大学, 测试]
 
 访问 `/university-library` 页面时：
 - 广东省的卡片应该显示
-- 点击广东省后，应该能看到暨南大学
+- 点击广东省后，应该能看到积极大学
 - 暨南大学下应该包含本测试文章
 
 ## 验证步骤
