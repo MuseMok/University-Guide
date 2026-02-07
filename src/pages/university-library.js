@@ -33,18 +33,21 @@ function getBlogPostsWithTags() {
   }
 }
 
-// 从省份全称或简称匹配省份
+// 从标签匹配省份（只匹配去掉后缀的省份名）
+// 匹配规则：
+// ✓ "山东" => 山东省
+// ✓ "广东" => 广东省  
+// ✓ "北京" => 北京市
+// ✗ "山东省" / "鲁" 等带后缀或简称不会匹配
+// ✗ "青岛" / "深圳" / "武汉" 等城市名不会匹配
 function matchProvince(tag) {
-  // 直接匹配省份全称
-  let province = allProvinces.find(p => p.province === tag);
-  if (province) return province;
-  
-  // 匹配省份简称（如"广东"匹配"广东省"）
-  province = allProvinces.find(p => 
-    p.province.includes(tag) || 
-    tag.includes(p.shortName) ||
-    p.province.replace(/省|市|自治区|特别行政区/g, '') === tag
-  );
+  // 只匹配去掉后缀的省份名（如"山东"匹配"山东省"）
+  // 不支持带后缀的全称（"山东省"）
+  // 不支持单字简称（"鲁"）
+  const province = allProvinces.find(p => {
+    const provinceWithoutSuffix = p.province.replace(/省|市|自治区|特别行政区/g, '');
+    return provinceWithoutSuffix === tag;
+  });
   
   return province;
 }
