@@ -5,8 +5,8 @@
 <meta name="generator" content="Docusaurus v3.9.2">
 <title data-rh="true">贡献指南 | 东华高中毕业生大学指北</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://blog.university-guide.top/docs/writing"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="贡献指南 | 东华高中毕业生大学指北"><meta data-rh="true" name="description" content="感谢你愿意分享自己的大学经历！你的经验将帮助学弟学妹们更好地了解大学生活。"><meta data-rh="true" property="og:description" content="感谢你愿意分享自己的大学经历！你的经验将帮助学弟学妹们更好地了解大学生活。"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://blog.university-guide.top/docs/writing"><link data-rh="true" rel="alternate" href="https://blog.university-guide.top/docs/writing" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://blog.university-guide.top/docs/writing" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"贡献指南","item":"https://blog.university-guide.top/docs/writing"}]}</script><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="东华高中毕业生大学指北 RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="东华高中毕业生大学指北 Atom Feed"><link rel="stylesheet" href="/assets/css/styles.7568c2ad.css">
-<script src="/assets/js/runtime~main.0de4f0b0.js" defer="defer"></script>
-<script src="/assets/js/main.d6b57804.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.6fb6b927.js" defer="defer"></script>
+<script src="/assets/js/main.307b6346.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg style="display: none;"><defs>
@@ -73,15 +73,17 @@
 <p><strong>错误示例：</strong></p>
 <div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token key atrule">tags</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token plain">广东</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> 中山大学</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> 校园生活</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic"># ✗ 第一个标签不是学校名</span><br></span></code></pre></div></div>
 <div class="language-yaml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-yaml codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token key atrule">tags</span><span class="token punctuation" style="color:rgb(199, 146, 234)">:</span><span class="token plain"> </span><span class="token punctuation" style="color:rgb(199, 146, 234)">[</span><span class="token plain">法学院</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> 武汉</span><span class="token punctuation" style="color:rgb(199, 146, 234)">,</span><span class="token plain"> 校园生活</span><span class="token punctuation" style="color:rgb(199, 146, 234)">]</span><span class="token plain"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"></span><span class="token comment" style="color:rgb(105, 112, 152);font-style:italic"># ✗ 第一个标签是学院名而非学校全名</span><br></span></code></pre></div></div>
-<p><strong>省份标签支持多种格式：</strong></p>
+<p><strong>省份标签格式要求：</strong></p>
 <ul>
-<li class="">全称：广东、山东、湖北</li>
-<li class="">省份简称：粤、鲁、鄂</li>
-<li class="">省份全称：广东省、山东省、湖北省</li>
+<li class="">✓ 只支持去掉后缀的省份名：山东、广东、湖北、北京</li>
+<li class="">✗ 不支持省份简称：鲁、粤、鄂、京</li>
+<li class="">✗ 不支持带后缀全称：山东省、广东省、北京市</li>
 </ul>
-<p><strong>提示：</strong></p>
+<p><strong>⚠️ 注意事项：</strong></p>
 <ul>
 <li class="">学校名请使用全称，如&quot;武汉大学&quot;而不是&quot;武大&quot;或&quot;法学院&quot;</li>
+<li class=""><strong>必须使用省份名</strong>（如：山东、广东），<strong>不要使用城市名</strong>（如：青岛、深圳、武汉）</li>
+<li class="">城市名可作为其他标签，但不会被系统识别为省份标签</li>
 <li class="">省份标签可以放在任意位置（除第一个），系统会自动识别</li>
 <li class="">系统会根据第一个标签（学校名）和省份标签自动归类到院校索引库</li>
 </ul>
@@ -93,7 +95,7 @@
 <ol>
 <li class=""><strong>内容真实</strong>：基于真实经历</li>
 <li class=""><strong>表达客观</strong>：客观陈述事实</li>
-<li class=""><strong>格式规范</strong>：符合模板 要求</li>
+<li class=""><strong>格式规范</strong>：符合模板要求</li>
 <li class=""><strong>言论合法</strong>：不得出现过激言论，不得讨论国家政治</li>
 </ol>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="pr-审核流程">PR 审核流程<a href="#pr-审核流程" class="hash-link" aria-label="PR 审核流程的直接链接" title="PR 审核流程的直接链接" translate="no">​</a></h2>
